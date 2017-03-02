@@ -1,0 +1,114 @@
+
+# Setup
+title              : 'SharpCode'
+tagline            : &tagline 'Get code right, get it #'
+description        : *tagline
+url                : http://blog.skonieczka.net
+url_img            : http://blog.skonieczka.net/images/
+url_assets         : http://blog.skonieczka.net/files/
+default_bg: sitebg.jpg
+default_logo: sitelogo.png
+
+
+## Setup Build Command Options
+# Handling Reading
+safe: false
+encoding: utf-8
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
+
+# Filtering Content
+future:      true
+
+# Outputting
+permalink: /:year/:month/:day/:title/
+relative_permalinks: false
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Conversion
+excerpt_separator: <!--more-->
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jemoji
+  - font-awesome-sass
+  - kramdown
+  - rouge
+  - jekyll-mentions
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+
+# Defaults values for contents
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+
+# Owner/author information
+# About/contact
+owner:
+  name             : Ryszard Skonieczka
+  #address: |
+  #                foo
+  #                XYZ
+  #                1234 ABC ST
+  #                Washington, DC 11111
+  #phone:          0 20 7777 12 12
+  show_cv          : false
+  avatar           : me.jpg
+  email            : blog.skonieczka@gmail.com
+  stackoverflow_id : 1245315
+  linkedin:         # ryszard-skonieczka-86114592
+  github           : Mad-Lynx
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        
+  facebook:       
+  stackexchange:  
+  instagram:      
+  flickr:
+  tumblr:  
+  google_plus:    
+
+## sidebar links:
+links:
+  - title: <i class="iconside iconm-home"></i> Home
+    url: /
+  - title: <i class="iconside iconm-user"></i> About
+    url: /about/
+  - title: <i class="iconside iconm-quill"></i> Blog
+    url: /blog/
+  - title: <i class="fa fa-tags"></i> Tags
+    url: /tags/
+  - title: <i class="fa fa-archive"></i> Archive
+    url: /archive/
+  - title: <i class="iconside iconm-envelop"></i> Contact
+    url: /contact/
+  - title: <i class="iconside iconm-github2"></i> GitHub
+    url: https://github.com/Mad-Lynx
+  - title: <i class="iconside iconm-feed2"></i> Feed
+    url: /feed.xml
+
+# Google Custom Search:
+#google_search: xyz123abc
+
+# Twitter stream widget:
+# Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
+#twitter_widget_id: xyz123abc
+
+# Add disqus username for Disqus comment board:
+#disqus_shortname: foo
+
+# Analytics and webmaster tools stuff goes here
+#google_analytics:   xyz123abc

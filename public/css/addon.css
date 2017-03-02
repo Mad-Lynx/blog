@@ -1,0 +1,111 @@
+/*CSS pending minification*/
+blockquote.style2:first-child,
+blockquote.style2 p,
+blockquote.style3:first-child,
+blockquote.style3 p {
+    display: inline
+}
+blockquote.style2,
+blockquote.style3 {
+    background: #fff;
+    border-left: 0;
+    padding: .5em 10px
+}
+blockquote.style2 {
+    margin: 5px 2px;
+    quotes: "\201C""\201D";
+    color: #000;
+    font-family: 'Great Vibes', cursive, Georgia, 'Times New Roman', serif;
+    font-size: 200%;
+    text-align: -webkit-center
+}
+blockquote.style2:before {
+    color: #333;
+    font-size: 4em;
+    line-height: .1em;
+    vertical-align: -.1em
+}
+blockquote.style2:after {
+    color: #333;
+    font-size: 4em;
+    line-height: .1em;
+    vertical-align: -.2em
+}
+blockquote.style2:last-child {
+    margin-bottom: 0
+}
+blockquote.style3 {
+    border-top: .4em solid #000;
+    border-bottom: .1em solid rgba(0, 0, 0, .5);
+    quotes: none;
+    color: #000;
+    font-family: Volkhov, 'Times New Roman', serif;
+    margin: 5px;
+    font-size: 1.2em;
+    font-weight: 700
+}
+blockquote.style3:last-child {
+    margin-bottom: 0
+}
+ul.quoteauthor {
+    list-style: none
+}
+ul.quoteauthor {
+    text-transform: uppercase
+}
+ul.quoteauthor {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif
+}
+ul.quoteauthor {
+    text-align: right;
+    margin: 5px 5px 15px;
+    font-size: .9em;
+    letter-spacing: .09em;
+    color: rgba(0, 0, 0, .9)!important
+}
+blockquote.style4 {
+    margin: 1.5em 0px .75em -.5em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    padding: .75em .5em .75em 1em;
+    background: #fff;
+    border-left: 0.5em solid #DDD;
+    border-left: 0.5em solid #DDD;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #777;
+}
+blockquote.style4:before {
+    display: block;
+    height: 0;
+    content: "\201C";
+    margin-left: -.95em;
+    font-style: italic;
+    font-size: 400%;
+    line-height: 1;
+    font-family: Cochin, Georgia, "Times New Roman", serif;
+    color: #999;
+}
+
+.anchor-link {
+  opacity: 0;
+  float: left;
+  margin-top: 0.6em;
+  margin-left: -1.4em;
+  padding-right: 0.4em;
+  font-size: 0.6em;
+  color: #9A9A9A;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.anchor-link:hover {
+  text-decoration: none;
+  color: #268bd2;
+}
+
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link {
+  opacity: 1;
+}
