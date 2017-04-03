@@ -225,6 +225,29 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 >
 > -- <cite>Somebody famous</cite>
 
+#### boxes
+
+Integer posuere erat a bibendum venenatis dapibus posuere velit aliquet.  
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Nullam quis risus eget urna mollis ornare vel eu leo.
+{: .box}
+
+Integer posuere erat a bibendum venenatis dapibus posuere velit aliquet.  
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Nullam quis risus eget urna mollis ornare vel eu leo.
+{: .box-gray}
+
+Integer posuere erat a bibendum venenatis dapibus posuere velit aliquet.  
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Nullam quis risus eget urna mollis ornare vel eu leo.
+{: .box-red}
+
+Integer posuere erat a bibendum venenatis dapibus posuere velit aliquet.  
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Nullam quis risus eget urna mollis ornare vel eu leo.
+{: .box-green}
+
+
 ### Horizontal Rule
 
 Three or more...

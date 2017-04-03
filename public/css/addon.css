@@ -64,16 +64,35 @@ ul.quoteauthor {
     color: rgba(0, 0, 0, .9)!important
 }
 blockquote.style4 {
-    margin: 1.5em 0px .75em -.5em;
+    color: #777;
+}
+blockquote.style4,
+.box-gray,
+.box-red,
+.box-green,
+.box {
+    margin: 1.5em 0px .75em 0px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     padding: .75em .5em .75em 1em;
     background: #fff;
-    border-left: 0.5em solid #DDD;
-    border-left: 0.5em solid #DDD;
     font-size: 1em;
     line-height: 1.5;
-    color: #777;
+    border-width: 0px;
 }
+blockquote.style4,
+.box-gray {
+    border-left: 0.5em solid #DDD;
+    margin-left: -.5em;
+}
+.box-red {
+    border-left: 0.5em solid #c11100;
+    margin-left: -.5em;
+}
+.box-green {
+    border-left: 0.5em solid #47ad09;
+    margin-left: -.5em;
+}
+
 blockquote.style4:before {
     display: block;
     height: 0;
@@ -108,4 +127,24 @@ h3:hover .anchor-link,
 h4:hover .anchor-link,
 h5:hover .anchor-link {
   opacity: 1;
+}
+
+.collapsed {
+  display: none;
+}
+.collapsible {
+  cursor: pointer;
+}
+.collapsible.collapsed {
+  display: inline;
+}
+.collapsible:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+  content: "\f103";
+}
+.collapsible.collapsed:before {
+  content: "\f101";
 }

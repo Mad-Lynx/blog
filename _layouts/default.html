@@ -59,6 +59,23 @@ $(function() {
     $(this).prepend('<a href="#' + this.id + '" class="anchor-link fa fa-anchor"></a>');
   });
 });
+// <a data-collapsible="target" data-collapsed="true"></a>
+$(function() {
+  $('[data-collapsible]').each(function() {
+    var host = $(this);
+    var isCollapsed = host.data('collapsed') !== undefined ? !!host.data('collapsed') : true;
+    host.toggleClass('collapsed', isCollapsed);
+    $(host.data('collapsible')).each(function() {
+      $(this).toggleClass('collapsed', isCollapsed);
+    });
+    host.click(function() {
+      $(this).toggleClass('collapsed');
+      $($(this).data('collapsible')).each(function() {
+        $(this).toggleClass('collapsed');
+      });
+    });
+  });
+});
     </script>
     {% include scripts.html %}
 </body>
