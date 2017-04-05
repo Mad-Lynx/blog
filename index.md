@@ -2,7 +2,7 @@
 layout: default
 permalink: index.html
 title: Home
-description: "Blogging on ...."
+description: "Get code right, get it #"
 ---
 
 ## Welcome

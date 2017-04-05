@@ -38,8 +38,8 @@
 <meta property="og:image" content="{{ domain }}{{ page.imagefeature }}">{% else %}
 <meta property="og:image" content="{% if page.imagesummary %}{{ site.url_img }}{{ page.imagesummary }}{% else %}{{ site.url_img }}{{ site.default_logo }}{% endif %}">{% endif %}
 {% if page.videofeature %}<meta property="og:video" content="{{ page.videofeature }}">{% endif %}
-<meta property="fb:app_id" content="1003108156422006">
-<meta property="fb:admins" content="817465054">
+{% if fb_app_id %}<meta property="fb:app_id" content="{{ fb_app_id }}">{% endif %}
+{% if fb_admins %}<meta property="fb:admins" content="{{ fb_admins }}">{% endif %}
 
 <!-- Fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400%7CTangerine%7CGreat+Vibes%7CInconsolata%7CVolkhov:700">

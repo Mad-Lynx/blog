@@ -7,7 +7,7 @@ url                : http://blog.skonieczka.net
 url_img            : http://blog.skonieczka.net/images/
 url_assets         : http://blog.skonieczka.net/files/
 default_bg: sitebg.jpg
-default_logo: sitelogo.png
+default_logo       : sitelogo.png
 
 
 ## Setup Build Command Options
@@ -108,7 +108,9 @@ links:
 #twitter_widget_id: xyz123abc
 
 # Add disqus username for Disqus comment board:
-#disqus_shortname: foo
+disqus_shortname: sharpcodeblog
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-93806215-1
+fb_app_id: 
+fb_admins: 
