@@ -1,0 +1,134 @@
+figure.highlight,
+div.highlighter-rouge {
+    padding: 7px 7px 7px 10px;
+    border: 1px solid #ddd;
+    -moz-box-shadow: 3px 3px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 3px 3px rgba(0, 0, 0, .1);
+    box-shadow: 3px 3px rgba(0, 0, 0, .1);
+    margin: 20px 0;
+    overflow: auto
+}
+.highlight pre,
+.highlighter-rouge pre {
+    margin-bottom: 0
+}
+code.highlighter-rouge {
+    color: #00a
+}
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cs,
+.highlight .ge {
+    font-style: italic
+}
+.highlight .gh,
+.highlight .gs,
+.highlight .gu,
+.highlight .ni,
+.highlight .nt {
+    font-weight: 700
+}
+.highlight .hll {
+    background-color: #ffc
+}
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+    color: #aaa
+}
+.highlight .err {
+    color: #F00000;
+    background-color: #F0A0A0
+}
+.highlight .cp {
+    color: #4c8317
+}
+.highlight .gd,
+.highlight .gr,
+.highlight .gt,
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+    color: #a00
+}
+.highlight .gh {
+    color: navy
+}
+.highlight .gi {
+    color: #0a0
+}
+.highlight .go {
+    color: #888
+}
+.highlight .gp {
+    color: #555
+}
+.highlight .gu {
+    color: purple
+}
+.highlight .k,
+.highlight .cs,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .ow,
+.highlight .ss {
+    color: #00a
+}
+.highlight .kt,
+.highlight .nb,
+.highlight .bp {
+    color: #0aa
+}
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .sr,
+.highlight .il {
+    color: #099
+}
+.highlight .s,
+.highlight .s2,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+    color: #a50
+}
+.highlight .na {
+    color: #1e90ff
+}
+.highlight .nc {
+    color: #0a0;
+    text-decoration: underline
+}
+.highlight .nd {
+    color: #888
+}
+.highlight .ni {
+    color: maroon
+}
+.highlight .nf {
+    color: #0a0
+}
+.highlight .nn {
+    color: #0aa;
+    text-decoration: underline
+}
+.highlight .nt {
+    color: #1e90ff
+}
+.highlight .w {
+    color: #bbb
+}
